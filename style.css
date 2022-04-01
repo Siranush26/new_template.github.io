@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     background-color: #26335D;
-    background-image: url("./hero-9-bg-shape-cover-dark.png");
+    background-image: url("./img/hero-9-bg-shape-cover-dark.png");
     letter-spacing: 1px;
     font-family: 'Readex Pro', sans-serif;
     height:760px;
@@ -52,14 +52,23 @@ nav ul {
     
 }
 
-.button {
+nav li a:hover{
+    color:#FC724D;
+}
+
+#button {
     padding-left: 20px;
     width: 350px;
 }
-.button_border {
+#button_border {
     border-radius: 5px;
     padding: 15px 24px;
     background-color:#FC724D;
+}
+
+#button_border:hover{
+    background-color: antiquewhite;
+    color:#FC724D;
 }
 
 .container2{
@@ -123,6 +132,11 @@ nav ul {
     margin-right:15px;
 }
 
+.button1:hover{
+    background-color: rgb(255, 204, 255);
+    color:rgb(255, 77, 255);
+}
+
 .button2 {
     background-color: rgba(168, 161, 161, 0.404);
     text-align: center;
@@ -138,6 +152,11 @@ nav ul {
     font-family: 'Montserrat', sans-serif;
 
 
+}
+
+.button2:hover{
+    background-color: rgb(255, 204, 255);
+    color:rgb(255, 77, 255);
 }
 
 
@@ -382,7 +401,14 @@ nav ul {
 .radius{
     border-radius: 50%;
     margin-left:190px;
+    transition: transform .3s;
 }
+
+.radius:hover{
+    transform: scale(1.5); 
+}
+
+
 
 .center{
     
@@ -416,8 +442,16 @@ nav ul {
     text-align: center;
 }
 
-.margin{
+#margin{
     margin-left:120px;
+}
+
+.zoom{
+    transition: transform .3s;
+}
+
+.zoom:hover{
+    transform: scale(1.5); 
 }
 .container8{
         background-color: #26335D;
@@ -627,7 +661,7 @@ nav ul {
 
   .row3_1{
       display:inline-block;
-      margin-left:14px;
+      margin-left:26px;
      
   }
 
@@ -732,7 +766,7 @@ nav ul {
 }
 
 
-.margin{
+#margin{
     margin-left:40px;
 }
 
@@ -741,10 +775,7 @@ nav ul {
     padding-top:90px;
     padding-left: 10px;
 }
-.row8{
-    
-    
-}
+
 .for_h5_with_img{
     font-size: 10px;
 }
@@ -765,10 +796,31 @@ width:100px;
 }
 
 .container11{
-    display:flex;
-    flex-wrap:wrap;
-    margin-left:0px;
+   display:flex;
+   flex-wrap:wrap;
+    margin-left:15px;
 }
+
+.last_div{
+   padding-left:0px;
+   padding-right:0px;
+   font-size: 21px;
+
+}
+.col12{
+    display:flex;
+   flex-direction: column ;
+   
+   
+    
+}
+#anim_img{
+    margin-top:0px;
+    }
+.fit{
+ padding-left:0px;
+    }
+    
 }
 
 
