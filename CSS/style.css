@@ -7,7 +7,7 @@ body {
 header {
     display: flex;
     background-color: #26335D;
-    background-image: url("./img/hero-9-bg-shape-cover-dark.png");
+    background-image: url("../img/hero-9-bg-shape-cover-dark.svg");
     letter-spacing: 1px;
     font-family: 'Readex Pro', sans-serif;
     height:760px;
