@@ -626,37 +626,39 @@ nav li a:hover{
     .container2 {
         display: flex;
         flex-wrap: wrap;
+        width:100%;
         
         
     }
 
     .col2_1{
+        width:90%;
         margin-top: 0px;
         display: inline-block;
-        padding-left: 15px;
+        
         margin-bottom:10px;
         
        
     }
     .font_h1{
         font-size:35px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     
    .font_h5{
-       margin-left: 15px;
+       margin-left: 25px;
    }
    .font_h4{
-    margin-left: 15px;
+    margin-left: 25px;
    }
 
     .button1{
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .button2 {
         display: block;
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 25px;
 
     }
 
@@ -664,7 +666,7 @@ nav li a:hover{
     
         width: 334px;
         height: 280px;
-        margin-left: 15px;
+        margin-left: 25px;
 
     }
 
@@ -684,20 +686,21 @@ nav li a:hover{
 
   .row3_1{
       display:inline-block;
-      margin-left: 15px;
-      margin-right: 15px;
+    
      
   }
 
   .col3_1{
       margin-bottom:10px;
       width:90%;
+      margin-left:10px;
     
       
   }
 
   .col3_2{
       width:90%;
+      margin-left:10px;
   }
   .container4{
       display:flex;
