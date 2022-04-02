@@ -627,13 +627,19 @@ nav li a:hover{
         display: flex;
         flex-wrap: wrap;
         
+        
     }
 
     .col2_1{
         margin-top: 0px;
         display: inline-block;
+        padding-left: 15px;
+        margin-bottom:10px;
         
        
+    }
+    .font_h1{
+        font-size:35px;
     }
     
 
@@ -653,21 +659,32 @@ nav li a:hover{
     display: inline-block;
     padding-top:0px;
   }
+  .container3{
+    width: 100%;
+    
+  }
 
   .row3{
-      margin-top:0px;
-      max-width: 100%;
+      margin-top:5px;
+     
   }
 
   .row3_1{
       display:inline-block;
-      margin-left:26px;
+      margin-left: 15px;
+      margin-right: 15px;
      
   }
 
   .col3_1{
       margin-bottom:10px;
+      width:90%;
+    
       
+  }
+
+  .col3_2{
+      width:90%;
   }
   .container4{
       display:flex;
@@ -682,7 +699,9 @@ nav li a:hover{
     
   }
   
-
+ .h22_f{
+     font-size: 30px;
+ }
   #sizze{
     width:346px;
     height:301px;
@@ -698,13 +717,17 @@ nav li a:hover{
 
   .container5{
       height:100%;
+      width:100%;
       padding-top: 50px;
+     
       
   }
 
   .row_56{
     display:flex;
     flex-wrap: wrap;
+    width:100%;
+    
    
   }
   .row5{
@@ -716,6 +739,7 @@ nav li a:hover{
     
     margin-top:20px;
     margin-right: 0px;
+    margin-left:0px;
     margin-bottom: 10px;
   }
 
@@ -727,12 +751,12 @@ nav li a:hover{
   }
 
   .for_h2{
-    line-height: 24px;
+    line-height: 30px;
   }
 
   .container7{
       display:inline-block;
-     height:100%;
+      height:100%;
       padding-top: 90px;
   }
 
@@ -744,14 +768,14 @@ nav li a:hover{
     
   }
   .col7_1{
-    width:351px;
+    width:341px;
     height:418px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
 
   .col7_2{
-    width:351px;
+    width:341px;
     height:418px;
   }
   .padd111{
@@ -759,6 +783,10 @@ nav li a:hover{
   }
   .padd222{
     display:none;
+}
+
+.for_p{
+    font-size: 12px;
 }
 
 .radius{
@@ -774,6 +802,10 @@ nav li a:hover{
 .container8{
     padding-top:90px;
     padding-left: 10px;
+}
+
+.col8{
+    height:180px;
 }
 
 .for_h5_with_img{
@@ -792,7 +824,7 @@ nav li a:hover{
     width:150px;
 }
 #button_search{
-width:100px;
+width:130px;
 }
 
 .container11{
