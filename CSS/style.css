@@ -829,6 +829,10 @@ nav li a:hover{
 .container8{
     width:100%;
     padding-top:90px;
+    padding-left: 0px;
+}
+
+.row8_1{
     padding-left: 10px;
 }
 
