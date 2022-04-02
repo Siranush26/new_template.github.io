@@ -742,9 +742,9 @@ nav li a:hover{
   .row_56{
     display:flex;
     flex-wrap: wrap;
-    width:90%;
-    margin-left: 17px;
-    margin-right: 17px;
+    width:100%;
+   
+    
     
    
   }
@@ -759,9 +759,11 @@ nav li a:hover{
     margin-right: 0px;
     margin-left:0px;
     margin-bottom: 10px;
+    
   }
 
   .row6_1{
+    
         
     margin-top:20px;
 
@@ -848,12 +850,12 @@ width:130px;
 .container11{
    display:flex;
    flex-wrap:wrap;
-  margin-left:0px;
+   margin-left:10px;
 }
 
 .col11{
     margin-left:0px;
-    padding-left: 15px;
+   
 }
 .last_div{
    padding-left:0px;
