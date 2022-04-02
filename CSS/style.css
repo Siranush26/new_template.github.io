@@ -762,11 +762,13 @@ nav li a:hover{
     
   }
 
-  .row6_1{
-    
-        
-    margin-top:20px;
+ 
+  .ffor_w{
+    width:325px;
+  }
 
+  .row6_1{ 
+    margin-top:20px;
     margin-bottom: 10px;
   }
 
