@@ -742,7 +742,9 @@ nav li a:hover{
   .row_56{
     display:flex;
     flex-wrap: wrap;
-    width:100%;
+    width:90%;
+    margin-left: 17px;
+    margin-right: 17px;
     
    
   }
@@ -784,15 +786,15 @@ nav li a:hover{
     
   }
   .col7_1{
-    width:341px;
-    height:418px;
+    width:338px;
+    height:420px;
     margin-right: 0px;
     margin-bottom: 10px;
   }
 
   .col7_2{
-    width:341px;
-    height:418px;
+    width:338px;
+    height:420px;
   }
   .padd111{
       display:none;
