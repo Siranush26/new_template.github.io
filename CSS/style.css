@@ -640,12 +640,23 @@ nav li a:hover{
     }
     .font_h1{
         font-size:35px;
+        margin-left: 15px;
     }
     
+   .font_h5{
+       margin-left: 15px;
+   }
+   .font_h4{
+    margin-left: 15px;
+   }
 
+    .button1{
+        margin-left: 15px;
+    }
     .button2 {
         display: block;
         margin-top: 10px;
+        margin-left: 15px;
 
     }
 
@@ -653,6 +664,8 @@ nav li a:hover{
     
         width: 334px;
         height: 280px;
+        margin-left: 15px;
+
     }
 
   .col2_2{
@@ -805,7 +818,7 @@ nav li a:hover{
 }
 
 .col8{
-    height:180px;
+    height:200px;
 }
 
 .for_h5_with_img{
@@ -830,9 +843,13 @@ width:130px;
 .container11{
    display:flex;
    flex-wrap:wrap;
-    margin-left:15px;
+  margin-left:0px;
 }
 
+.col11{
+    margin-left:0px;
+    padding-left: 15px;
+}
 .last_div{
    padding-left:0px;
    padding-right:0px;
