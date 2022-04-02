@@ -518,16 +518,16 @@ nav li a:hover{
         }
 
         #container10{
-            width:50%;
+           
             display:flex;
-            margin-left:320px;
+           justify-content: center;
             margin-top: 80px;
  
           
         }
 
         #search_box{
-            width:100%;
+            width:50%;
             display:flex;
             justify-content: center;
         }
@@ -847,8 +847,8 @@ nav li a:hover{
 }
 
 #container10{
-    margin-left:90px;
-    margin-top: 25px;
+    
+   
 }
 #search{
     width:150px;
