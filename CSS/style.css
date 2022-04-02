@@ -827,6 +827,7 @@ nav li a:hover{
 
 
 .container8{
+    width:100%;
     padding-top:90px;
     padding-left: 10px;
 }
@@ -846,10 +847,7 @@ nav li a:hover{
     width:100%;
 }
 
-#container10{
-    
-   
-}
+
 #search{
     width:150px;
 }
