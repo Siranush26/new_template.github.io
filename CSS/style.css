@@ -316,6 +316,9 @@ nav li a:hover {
 }
 
 .h66_f {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -323,6 +326,10 @@ nav li a:hover {
     color: #FC724D;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+.img4_2_padd{
+padding-left: 10px;
 }
 
 .container5 {
