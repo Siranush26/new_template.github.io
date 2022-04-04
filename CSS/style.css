@@ -273,7 +273,6 @@ nav li a:hover {
 .container4 {
 
     padding-top: 20px;
-    ;
     background-color: #26335D;
     height: 700px;
     width: 100%;
@@ -328,7 +327,7 @@ nav li a:hover {
 
 .container5 {
     background-color: #26335D;
-    height: 800px;
+    height:800px;
     width: 100%;
     padding-top: 5px;
 
@@ -342,22 +341,142 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+ 
 }
 
 .row5_1 {
     background-color: #FFFFFF;
     margin-right: 15px;
+    
 
 }
 
 .col5_1 {
     padding-right: 0px;
+    
 }
+.col5_2{
+    height:290px;
+}
+
+.new_eng{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FC724D;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 28px;
+    margin-bottom: 15px;
+   
+}
+
+.img4{
+padding-left:100px;
+
+}
+
+.h5_col{
+    padding-top: 0px;
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+
+.p_col{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color:  #737373;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.button_neww {
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid #FC724D;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FC724D;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.button_neww:hover{
+    background-color:rgb(255, 179, 128);
+    color:#FFFFFF;
+   
+}
+
+.for_vector{
+    padding-left: 8px;
+}
+
+
+
 
 .row6_1 {
     background-color: #FFFFFF;
 }
 
+.h6_coll{
+    margin-top:10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+#img_id{
+    padding-right: 10px;
+}
+
+.ll_img{
+    padding-top: 0px;
+    margin-left: 18px;
+    margin-top:15px;
+    margin-bottom: 0px;
+   
+   
+}
+
+#lll_img{
+    padding-left: 2px;
+}
 
 
 .container7 {
@@ -749,10 +868,15 @@ nav li a:hover {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        
 
 
 
 
+    }
+
+    .img4{
+        padding-left: 70px;
     }
 
     .row5 {
