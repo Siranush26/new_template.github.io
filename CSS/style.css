@@ -17,15 +17,19 @@ header {
 
 .container {
     position: fixed;
-
+    background-color: rgb(210, 165, 223, .4);
 }
 
+nav{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    padding-top: 20px;
+    
 }
 
 #first_name {
@@ -723,21 +727,22 @@ padding-left:100px;
 
 }
 
+
+#last_imgg{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:13px 13px;
+ 
+}
+
 .last_11 {
     color: #737373;
     font-size: 14px;
     letter-spacing: 0.2px;
 }
 
-#right_id {
-    margin-left: 90px;
-
-}
-
-#right_id_2 {
-    margin-left: 60px;
-
-}
 
 
 .last_div {
@@ -897,7 +902,7 @@ padding-left:100px;
     .container5 {
         height: 100%;
         width: 100%;
-        padding-top: 50px;
+        padding-top: 100px;
 
 
     }
@@ -1052,18 +1057,20 @@ padding-left:100px;
     }
 
     .last_div {
-       
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 21px;
+       display:flex;
+       flex-wrap: wrap;
+       padding-left: 20px;
+       padding-right: 0px;
+       font-size: 21px;
 
     }
-
-    .col12 {
-        display: flex;
-        flex-direction: column;
-        
-
+   
+    
+    .col13{
+       display:flex;
+       flex-direction: row;
+       align-items: center;
+       padding-left:130px;
     }
 
     #anim_im1 {
