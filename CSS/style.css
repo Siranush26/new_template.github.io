@@ -713,18 +713,19 @@ padding-left:100px;
     display: flex;
     margin-top: 50px;
     justify-content:space-around;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
     width:100%;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
 .col11 {
-    font-family: 'Montserrat', sans-serif;
-    width:30%;
+  
+   
 }
 .col111 {
-    font-family: 'Montserrat', sans-serif;
+   
     
 }
 
@@ -1058,8 +1059,14 @@ padding-left:100px;
     .col11 {
         margin-left: 20px;
         font-size: 10px;
+        width:30%
       
 
+    }
+
+    .col111{
+        font-size: 10px;
+        
     }
 
     .last_div {
