@@ -328,7 +328,7 @@ nav li a:hover {
 
 }
 
-.img4_2_padd{
+.i4_2_padd{
 padding-left: 10px;
 }
 
@@ -468,11 +468,11 @@ padding-left:100px;
    
 }
 
-#img_id{
+#iii_id{
     padding-right: 10px;
 }
 
-.ll_img{
+.ll_im{
     padding-top: 0px;
     margin-left: 18px;
     margin-top:15px;
@@ -481,7 +481,7 @@ padding-left:100px;
    
 }
 
-#lll_img{
+#lll_im{
     padding-left: 2px;
 }
 
@@ -569,7 +569,11 @@ padding-left:100px;
     text-align: center;
 }
 
-#margin {
+#margin1 {
+    margin-left: 120px;
+}
+
+#margin2{
     margin-left: 120px;
 }
 
@@ -617,7 +621,7 @@ padding-left:100px;
     font-family: 'Montserrat', sans-serif;
 }
 
-.left_img {
+.left_im {
     padding-right: 15px;
 }
 
@@ -738,7 +742,7 @@ padding-left:100px;
 }
 
 
-#anim_img {
+#anim_im {
     margin-top: 35px;
 
 }
@@ -958,9 +962,14 @@ padding-left:100px;
     }
 
 
-    #margin {
+    #margin1 {
         margin-left: 40px;
     }
+
+    #margin2 {
+        margin-left: 40px;
+    }
+
 
 
     .container8 {
@@ -1031,7 +1040,7 @@ padding-left:100px;
 
     }
 
-    #anim_img {
+    #anim_im {
         margin-top: 0px;
     }
 
