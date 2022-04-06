@@ -770,7 +770,7 @@ padding-left:100px;
 
 @supports (display: flex) {
 @media only screen and (max-width: 900px) {
-    
+
     article {
         display: flex;
         max-width: 100%;
@@ -1082,4 +1082,5 @@ padding-left:100px;
     }
 
 }
+
 }
