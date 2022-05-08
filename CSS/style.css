@@ -1274,7 +1274,7 @@ nav li a:hover {
         padding-left:85px;  
         border-radius:0px 0px 0px 0px;  
         transition:transform 0.3s ease-in; 
-        width:100%;
+        width:235px;
          
        
         
@@ -1288,10 +1288,10 @@ nav li a:hover {
        }
 
   .container{
-      width:100%;
+      width:320px;
   }
  nav{
-    width:100%;
+    width:320px;
     display:flex;
     
 }
