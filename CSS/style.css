@@ -1271,7 +1271,7 @@ nav li a:hover {
         top:4.5vh;  
         flex-direction:column;  
         background-color: rgb(210, 165, 223, .9);
-        padding-left:105px;  
+        padding-left:85px;  
         border-radius:0px 0px 0px 0px;  
         transition:transform 0.3s ease-in; 
         width:100%;
