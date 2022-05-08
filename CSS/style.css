@@ -31,20 +31,25 @@ nav {
     
 }
 
-nav ul {
+nav ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
+    text-decoration: none;
 
 }
 
+
+#logo{
+    display:none;
+}
 
 
 #first_name {
     padding-left: 100px;
     font-weight: 700;
     font-size: 19px;
+ 
 }
 
 
@@ -70,9 +75,28 @@ nav li a:hover {
     color: #FC724D;
 }
 
+#hamburger{
+    display:none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+
 #button {
     padding-left: 20px;
     width: 350px;
+}
+
+#button:active{
+    transform: translateY(1px);
 }
 
 #button_border {
@@ -106,7 +130,7 @@ nav li a:hover {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.1px;
-    color: #FFFFFF;
+    color:#FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -115,7 +139,10 @@ nav li a:hover {
     font-size: 45px;
     line-height: 55px;
     letter-spacing: 0.2px;
-    color: #FFFFFF;
+    background: -webkit-linear-gradient(#eee, #ff9933);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -147,7 +174,11 @@ nav li a:hover {
 
 .button1:hover {
     background-color: rgb(255, 204, 255);
-    color: rgb(255, 77, 255);
+    color: #FC724D;
+}
+
+.button1:active{
+    transform: translateY(1px);
 }
 
 .button2 {
@@ -168,7 +199,11 @@ nav li a:hover {
 
 .button2:hover {
     background-color: rgb(255, 204, 255);
-    color: rgb(255, 77, 255);
+    color: #FC724D;
+}
+
+.button2:active{
+    transform: translateY(1px);
 }
 
 
@@ -456,6 +491,11 @@ nav li a:hover {
 
 }
 
+.button_neww:active{
+    transform: translateY(1px);
+}
+
+
 .for_vector {
     padding-left: 8px;
 }
@@ -720,7 +760,9 @@ nav li a:hover {
 
 }
 
-
+#button_search:active{
+    transform: translateY(0.2px);
+}
 .container11 {
     display: flex;
     margin-top: 50px;
@@ -797,14 +839,18 @@ nav li a:hover {
             display: flex;
             max-width: 100%;
         }
-
-       nav{
-           display:none;
-       }
+        .container{
+            width:100%;
+        }
+        
+      
+        
+       
         .container2 {
             display: flex;
             flex-wrap: wrap;
             width: 100%;
+            margin-top:60px;
 
         }
 
@@ -1116,6 +1162,11 @@ nav li a:hover {
             display: flex;
             flex-direction: row;
             justify-content: center;
+           
+        }
+
+        .fit{
+            margin-left:5px;
         }
 
         #anim_im1 {
@@ -1140,11 +1191,14 @@ nav li a:hover {
 
     }
 
+    
+
 }
 
 
 @media only screen and  (min-width:768px) {
-
+   
+    
     .container2{
         margin-left:100px;
     }
@@ -1179,4 +1233,78 @@ nav li a:hover {
         .last_111{
             font-size:15px;
         }
+
+        .fit{
+            margin-left:5px;
+        }
+}
+
+
+
+@media only screen and  (max-width:810px) {
+    #logo{
+        display: block;
+        cursor: pointer;
+        width:36px;
+        height:36px;
+        margin-left:10px;
+        margin-right: 270px;
+    }
+    #hamburger {
+        display: block;
+        cursor: pointer;
+        width:36px;
+        height:36px;
+        
+        
+    
+    }
+    #nav_menu{
+        display:none;
+      }
+    .nav_menu.active {
+       left:0;
+    }
+ 
+    .nav_menu{  
+        position:absolute;   
+        top:4.5vh;  
+        flex-direction:column;  
+        background-color: rgb(210, 165, 223, .9);
+        padding-left:105px;  
+        border-radius:0px 0px 0px 0px;  
+        transition:transform 0.3s ease-in; 
+        width:100%;
+         
+       
+        
+       }  
+
+     .second_part{
+          
+           margin-top:7px;
+           margin-bottom: 7px;
+           
+       }
+
+  .container{
+      width:100%;
+  }
+ nav{
+    width:100%;
+    display:flex;
+    
+}
+
+   #first_name,#button{
+       display:none;
+   }
+
+   .third_part{
+    display:none;
+   }
+
+   ul{
+       display:none;
+   }
 }
